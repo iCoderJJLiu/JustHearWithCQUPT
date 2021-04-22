@@ -169,9 +169,9 @@
     //活动内容
     NSString *content = @"分享音悦重邮JustHear";
     //活动的url
-    NSURL *url = [NSURL URLWithString:@"https://github.com/iCoderJJLiu?tab=repositories"];
+    NSURL *url = [NSURL URLWithString:@"https://github.com/iCoderJJLiu/JustHearWithCQUPT/tree/master"];
     //活动的图片
-    UIImage *image = [UIImage imageNamed:@"占位图"];
+    UIImage *image = [UIImage imageNamed:@"AppIcon"];
     UIActivityViewController * con = [[UIActivityViewController alloc]initWithActivityItems:@[content,url,image] applicationActivities:nil];
     //活动行为结束后回调的block
     con.completionWithItemsHandler = ^(UIActivityType activityType, BOOL completed, NSArray * returnedItems, NSError * __nullable activityError){

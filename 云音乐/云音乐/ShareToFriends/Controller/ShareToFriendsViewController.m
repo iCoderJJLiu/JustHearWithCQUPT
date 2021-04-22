@@ -61,7 +61,7 @@
     [filter setDefaults];
     // 3.给过滤器添加数据
     // Todo
-    NSString *dataString = @"https://github.com/iCoderJJLiu";
+    NSString *dataString = @"https://github.com/iCoderJJLiu/JustHearWithCQUPT/tree/master";
     NSData *data = [dataString dataUsingEncoding:NSUTF8StringEncoding];
     // 4.通过KVO设置滤镜inputMessage数据
     [filter setValue:data forKeyPath:@"inputMessage"];
